@@ -44,10 +44,21 @@ This project contains an end-to-end automated test suite for [https://dailyfinan
 
 ---
 
-## 🚀 Getting Started
-1. Clone the Repository
-     `` git clone https://github.com/your-username/Playwright_Assignment.git
-        cd Playwright_Assignment
+### Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/afsanakashpia/Playwright_JS.git
+   cd Playwright_JS
+
+### How to Run   
+2.Run it using the following command on terminal in VS Code 
+ 
+  ``` npx playwright test ```
+
+### Allure Report Screenshot
+
+<img width="916" alt="playwright" src="https://github.com/user-attachments/assets/9a29c6e8-6a34-4dd9-a03c-4eb268400bd4" />
 
 
 ## 📂 Folder Structure
