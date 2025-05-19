@@ -43,6 +43,13 @@ test("Register Page", async ({ page }) => {
     //assert
     expect(msg).toContain("Only Gmail addresses are accepted.");
 
+    await page.goto("/");
+    await reg.registerUserInvalid3(userModel);
+    const toastMessage3 = page.locator(".Toastify__toast");
+    await toastMessage3.waitFor({ timeout: 20000 })
+    const message = await toastMessage3.textContent();
+    expect(message).toContain("User with this email address already exists.");
+
      await page.goto("/");
     await reg.registerUser(userModel);
 
