@@ -66,6 +66,10 @@ This project contains an end-to-end automated test suite for [https://dailyfinan
 ### Test Case Link
   https://docs.google.com/spreadsheets/d/12rpmMAj4r9tSMVVFdk4dlVbbx8B2Nxf4b4aBM4HkwH4/edit?usp=sharing
 
+### Automation video
+
+https://github.com/user-attachments/assets/1398da6c-bc7e-4722-90e9-ea22a1baa6bc
+
 ### Allure Report Screenshot
 
 <img width="916" alt="playwright" src="https://github.com/user-attachments/assets/9a29c6e8-6a34-4dd9-a03c-4eb268400bd4" />
