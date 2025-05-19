@@ -71,6 +71,22 @@ class RegisterPage {
 
     }
 
+        async registerUserInvalid3(userModel) {
+        //passing already registered email
+        await this.registrationLink.click();
+        await this.firstNameTxt.fill(userModel.firstName);
+        await this.lastNameTxt.fill(userModel.lastName);
+        await this.emailTxt.fill("afsanasharmilykashpia+547@gmail.com");
+        await this.passwordTxt.fill(userModel.password);
+        await this.phoneNumberTxt.fill(userModel.phoneNumber);
+        await this.addressTxt.fill(userModel.address);
+        await this.genderRadioBtn.first().click();
+        await this.terms.click();
+        await this.registerBtn.click();
+
+
+    }
+
 }
 
 export default RegisterPage;
