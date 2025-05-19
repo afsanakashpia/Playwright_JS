@@ -59,6 +59,9 @@ This project contains an end-to-end automated test suite for [https://dailyfinan
  
   ``` npx playwright test ```
 
+### Test Case Link
+  https://docs.google.com/spreadsheets/d/12rpmMAj4r9tSMVVFdk4dlVbbx8B2Nxf4b4aBM4HkwH4/edit?usp=sharing
+
 ### Allure Report Screenshot
 
 <img width="916" alt="playwright" src="https://github.com/user-attachments/assets/9a29c6e8-6a34-4dd9-a03c-4eb268400bd4" />
