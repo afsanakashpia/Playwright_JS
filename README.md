@@ -36,6 +36,10 @@ This project contains an end-to-end automated test suite for [https://dailyfinan
 - 🚫 Attempt registration using an invalid (non-Gmail) email address.  
   **Expected:** `"Only Gmail addresses are accepted."`
 
+ - 🚫 Attempt registration using already registered email address.
+
+    **Expected:** `"User with email address already exists."`
+
 - 🚫 Attempt login with incorrect credentials.  
   **Expected:** `"Invalid email or password."`
 
