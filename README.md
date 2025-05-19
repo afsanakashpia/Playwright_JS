@@ -30,17 +30,20 @@ This project contains an end-to-end automated test suite for [https://dailyfinan
 
 ### ❌ Negative Test Case
 
- - Attemp user Registration avoiding mandatory test fields (eg:firstname)
-       `"Please fill out this field."`
- - Attemp user Registration with invalid email
-        `"Only Gmail addresses are accepted."`
- - Attempt user Login with invalid credentials
-       `"Invalid email or password."`
- - Attempt password reset by passing empty email field and assert the following error
-      `"Please fill out this field."`
- - Attempt password reset using an **unregistered email**.
-- Assert the appearance of the error message:  
-  `"Your email is not registered"`.
+- 🚫 Attempt registration without filling mandatory fields (e.g., first name).  
+  **Expected:** `"Please fill out this field."`
+
+- 🚫 Attempt registration using an invalid (non-Gmail) email address.  
+  **Expected:** `"Only Gmail addresses are accepted."`
+
+- 🚫 Attempt login with incorrect credentials.  
+  **Expected:** `"Invalid email or password."`
+
+- 🚫 Attempt password reset with an empty email field.  
+  **Expected:** `"Please fill out this field."`
+
+- 🚫 Attempt password reset using an unregistered email address.  
+  **Expected:** `"Your email is not registered"`
 
 ---
 
